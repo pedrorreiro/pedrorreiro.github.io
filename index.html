@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" type="text/css" href="folha.css">
         <title>Random Blog</title>
     </head>
@@ -23,55 +24,98 @@
         <div id="areaPrincipal"> <!-- Área principal, pag inteira-->
             <div class="areaPostagens"> <!-- Área onde poe as postagens -->
                 
-                <div class="post">
+                <div class="post" id="1">
                     <p class="tituloPost">Título da postagem</p>
 
-                    <p class="dataPost">Postado em: </p>
-                    <img class="imagem" src="img/imagem1.jpg">
+                    <p class="dataPost">Postado em: 01/01/2020 </p>
+                    <img class="imagem" src="img/imagem1.jpg"><br><br>
+                    &nbsp&nbsp&nbsp&nbsp <!-- Tabulação-->
+                        
+                        <span class="textoPost">
+                            Você sabia que blablablablababla? Claro que sim, então blablablabla<br>
+                        </span>
+                        
+                        <br>&nbsp
+                        
+                        <a id="leiaMais" href="#" style="color: black;">Leia Mais</a>
+                    
+                    
+                    
+                    
+                    </p>
                 </div>
 
-                <div class="post">
+                <div class="post" id="2">
                     <p class="tituloPost">Título da postagem</p>
 
-                    <p class="dataPost">Postado em: </p>
-                    <img class="imagem" src="img/imagem2.jpg">
+                    <p class="dataPost">Postado em: 01/01/2020 </p>
+                    <img class="imagem" src="img/imagem2.jpg"><br><br>
+                    &nbsp&nbsp&nbsp&nbsp <!-- Tabulação-->
+                        
+                        <span class="textoPost">
+                            Você sabia que blablablablababla? Claro que sim, então blablablabla<br>
+                        </span>
+                        
+                        <br>&nbsp
+                        
+                        <a id="leiaMais" href="#" style="color: black;">Leia Mais</a>
+                    
+                    
+                    
+                    
+                    </p>
                 </div>
 
-                <div class="post">
+                <div class="post" id="3">
                     <p class="tituloPost">Título da postagem</p>
 
-                    <p class="dataPost">Postado em: </p>
-                    <img class="imagem" src="img/imagem3.jpg">
+                    <p class="dataPost">Postado em: 01/01/2020 </p>
+                    <img class="imagem" src="img/imagem3.jpg"><br><br>
+                    &nbsp&nbsp&nbsp&nbsp <!-- Tabulação-->
+                        
+                        <span class="textoPost">
+                            Você sabia que blablablablababla? Claro que sim, então blablablabla<br>
+                        </span>
+                        
+                        <br>&nbsp
+                        
+                        <a id="leiaMais" href="#" style="color: black;">Leia Mais</a>
+                    
+                    
+                    
+                    
+                    </p>
                 </div>
             </div>
 
             <div id="postagensRecentes"> <!-- Área lateral para postagens recentes -->
-                <h2 class="titPostagensRecentes">Postagens Recentes</h2> <!-- Título para a área lateral-->
-                
+                <div class="titPostagensRecentes">
+                    <span>Postagens Recentes</span> <!-- Título para a área lateral-->
+    
                 <div class="postRecente">
                     <p class="titPostRecente">Título postagem 1</p>
-                    <p><a class="linkPostRecente" href="">Leia Mais</a></p>
+                    <p><a class="linkPostRecente" href="#1">Leia Mais</a></p>
                     <hr>
                 </div>
 
                 <div class="postRecente">
                     <p class="titPostRecente">Título postagem 2</p>
-                    <p><a class="linkPostRecente" href="">Leia Mais</a></p>
+                    <p><a class="linkPostRecente" href="#2">Leia Mais</a></p>
                     <hr>
                 </div>
 
                 <div class="postRecente">
                     <p class="titPostRecente">Título postagem 3</p>
-                    <p><a class="linkPostRecente" href="">Leia Mais</a></p>
+                    <p><a class="linkPostRecente" href="#3">Leia Mais</a></p>
                 </div>
 
             </div>
 
-            <div id="rodape">
-                <p>Todos os direitos reservados.</p>
-            </div>
-
         </div>
+
+            <div id="rodape">
+                <p>Copyright &copy 2020 - Todos os direitos reservados.</p>
+            </div>
 
 
 
