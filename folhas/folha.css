@@ -8,6 +8,10 @@
     padding: 0;
 }
 
+a:hover{
+    text-decoration: none !important;
+}
+
 iframe{
     border: 2px solid black;
 	border-radius: 20px;
@@ -31,7 +35,7 @@ hr{
 body {
     font-size: 1em;
     font-family: "Trebuchet", Helvetica, sans-serif;
-    background: #e6e6e6;
+    background: #e6e6e6 !important;
 }
 
 #cabecalho {
@@ -142,6 +146,7 @@ a {
 
 .branco {
     color: white;
+    font-weight: bold;
 }
 
 .laranja {
