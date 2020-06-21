@@ -25,3 +25,7 @@ function insta(){
 function facebook(){
     window.open('http://www.facebook.com/PedroHenAlves', '_blank');
 }
+
+function gitHub(){
+    window.open('https://github.com/pedrorreiro', '_blank');
+}
