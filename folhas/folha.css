@@ -8,6 +8,17 @@
     padding: 0;
 }
 
+iframe{
+    border: 2px solid black;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+
+#travaOver:hover{
+    cursor: pointer;
+}
+
 h2{
     font-size: 1em;
     background-color: white;
@@ -123,6 +134,7 @@ a {
     color: #f7b600;
     font-weight: bold;
     padding-bottom: 5px;
+    font-size: 1.3em;
 
 }
 
@@ -194,6 +206,10 @@ a.branco:hover{
     text-align: center;
 }
 
+#msgDemoErro{
+    display: none;
+}
+
 /* ---------------- */
 
 #rodape {
@@ -203,7 +219,7 @@ a.branco:hover{
     background: #CCC;
 }
 
-@media (max-width: 551px){
+@media (max-width: 700px){
     
     body{
         text-align: center;
@@ -231,6 +247,14 @@ a.branco:hover{
     #menuDevice{
         display: inline-block;
         text-align: center;
+    }
+
+    #frameFruit{
+        display: none;
+    }
+
+    #msgDemoErro{
+        display: block;
     }
 
 

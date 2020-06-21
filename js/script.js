@@ -8,6 +8,16 @@ function mostraMenu(){
 
 }
 
+function tiraOverflow() {
+
+    if(document.body.style.overflow == "hidden")
+        document.body.style.overflow = "scroll";
+    
+    else document.body.style.overflow = "hidden"
+
+
+}
+
 function insta(){
     window.open('http://www.instagram.com/pedro_riqe', '_blank');
 }
