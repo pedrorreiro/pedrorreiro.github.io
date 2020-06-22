@@ -242,7 +242,10 @@ a.branco:hover{
     .areaPostagens{
         width: 100%;
         float: none;
+    }
 
+    #postagensRecentes{
+        width: 100%;
     }
 
     #menu{
