@@ -187,6 +187,7 @@ a {
 a.branco:hover{
     background: white;
     color: #f7b600;
+    border-radius: 5px;
 }
 
 #menuImg{
