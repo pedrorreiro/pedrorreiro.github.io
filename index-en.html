@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link rel="stylesheet" type="text/css" href="folhas/folha.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="shortcut icon" href="img/git.ico" />
+
+        <title>Pedro H.</title>
+    </head>
+    <body>
+
+        <div id="cabecalho">
+            <div id="titulo">
+                <h1 id="tecblog">My<span class="branco">Git</span>Hub</h1>
+            </div>
+    
+            <div id="menu">
+                <a class="branco" href="index-en.html">Home</a>
+                <a class="branco" href="contato-en.html">Contacts</a>
+            </div>
+    
+            <div id="menuDevice">
+                    <img id="iconMenu" src="img/menu.png" onclick="mostraMenu()">
+                <ul id="itensMenuDevice">
+                    <br>
+                    <li><a class="branco" href="index-en.html">Home</a></li>
+                    <li><a class="branco" href="contato-en.html">Contacts</a></li>
+    
+            </div>
+      
+            <div id="lang">
+                <a href="index.html">
+                    <span style="font-weight: bold; color: white;">PT </span>
+                    <img id="terra" src="img/terra.png">
+                </a>
+            </div>
+    
+        </div>
+
+        <div id="areaPrincipal"> <!-- Área principal, pag inteira-->
+            <div class="areaPostagens"> <!-- Área onde poe as postagens -->
+                
+                <div class="post" id="1">
+                    <p class="tituloPost">Cookie Clicker</p>
+
+                    <p class="dataPost">Created in: June 2020 </p><br>
+
+                    <strong><p>THIS IS A DEMO VERSION</p></strong><br>
+                   
+                    <iframe src="https://pedrorreiro.github.io/cookieClicker/" height="430px" width="90%" scrolling="no"></iframe>
+
+                    <br><br><p>Cookie clicker was a project which I only used JavaScript. 
+                        It's a game in which the more you click, 
+                        more cookies you get. There you also can buy items in the store to get
+                        more CPS (Cookies per second) and 
+                        automate the game, making it more fun and addictive.</p><br>
+                        <div class="linkToPlay"><a href="https://pedrorreiro.github.io/cookieClicker/" style="color: black; font-size: 1em;" target="_blank">Click to play</a></div>
+
+                </div>
+
+                <div class="post" id="2">
+                    <p class="tituloPost">Fruit Game</p>
+
+                    <p class="dataPost">Created in: June 2020</p><br>
+                    
+
+                    <p><strong>THIS IS A DEMO VERSION</strong></p><br>
+                
+                    <div id="frameFruit">
+
+                        <p id="travaOver" onclick="tiraOverflow()"><strong>Lock/Unlock</strong> the page scroll to play the demo.</p><br>
+                        
+                        <iframe id="fruitGame" src="https://pedrorreiro.github.io/fruitGame/" height="600px" width= "69%" scrolling="no" ></iframe>
+                        <br><br>
+                    </div>   
+
+                    <div id="msgDemoErro">
+                        <p style="color: red;"><strong>This game doesn't work in mobile devices!</strong></p><br>
+                    </div>
+                
+
+                    <p>Fruit Game is a game whose objective is to collect as many fruits
+                        as possible in a given time. The game has a system of records made
+                        using browser cookies.
+                    </p><br>
+                    <div class="linkToPlay"><a href="https://pedrorreiro.github.io/fruitGame/" style="color: black; font-size: 1em;" target="_blank">Click to play</a></div>
+
+                </div>
+
+            </div>
+
+            <div id="postagensRecentes"> <!-- Área lateral para postagens recentes -->
+                <div class="titPostagensRecentes">
+                    <span>Projects</span> <!-- Título para a área lateral-->
+    
+                <div class="postRecente">
+                    <p class="titPostRecente">Cookie Clicker</p>
+                    <p><a class="linkPostRecente" href="#1">Read more</a></p>
+                    <hr>
+                </div>
+
+                <div class="postRecente">
+                    <p class="titPostRecente">Fruit Game</p>
+                    <p><a class="linkPostRecente" href="#2">Read more</a></p>
+                    <hr>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="rodape">
+            <p>Copyright &copy 2020 - All rights reserved.</p>
+            <span>Made by Pedro Henrique - </span>
+
+            <img class="icon" onclick="insta()" src="img/insta.png">
+            <img class="icon" onclick="facebook()" src="img/facebook.png">
+        </div>
+
+        <script src="js/script.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </body>
+</html>

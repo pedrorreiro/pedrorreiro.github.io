@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="folhas/folhaContato.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/git.ico" />
+
+    <title>Pedro H. - Contacts</title>
+</head>
+
+<body>
+
+    <div id="cabecalho">
+        <div id="titulo">
+            <h1 id="tecblog">My<span class="branco">Git</span>Hub</h1>
+        </div>
+
+        <div id="menu">
+            <a class="branco" href="index-en.html">Home</a>
+            <a class="branco" href="contato-en.html">Contacts</a>
+        </div>
+
+        <div id="menuDevice">
+                <img id="iconMenu" src="img/menu.png" onclick="mostraMenu()">
+            <ul id="itensMenuDevice">
+                <br>
+                <li><a class="branco" href="index-en.html">Home</a></li>
+                <li><a class="branco" href="contato-en.html">Contacts</a></li>
+        </div>
+  
+        <div id="lang">
+            <a href="contato.html">
+                <span style="font-weight: bold; color: white;">PT </span>
+                <img id="terra" src="img/terra.png">
+            </a>
+        </div>
+
+    </div>
+
+
+    <div id="areaPrincipal"> <!-- Área principal, pag inteira-->
+
+        <div id="content">
+            <div id="areaimgEu">
+                <img id="minhaFoto" src="img/eu.png" height="320px" width="270px" style="display: inline-block;">
+                <div style="position: relative; top: -70px;">
+                    <p style="font-size: 1.4em;"><strong>Pedro Henrique Alves de Souza</strong></p>
+                </div>
+
+                <div style="display: inline-block;" id="iconesRedes">
+                    <a class="text-decoration-none" href="http://www.facebook.com/PedroHenAlves" target="_blank">
+                        <img class="iconPerfil" src="img/facePerfil.png">
+                    </a>
+
+                    <a class="text-decoration-none" href="http://www.instagram.com/pedro_riqe" target="_blank">
+                        <img class="iconPerfil" src="img/instaPerfil.png">
+                    </a>
+
+                    <a class="text-decoration-none" href="https://github.com/pedrorreiro" target="_blank">
+                        <img class="iconPerfil" src="img/gitPerfil.png">
+                    </a>
+
+                    <a class="text-decoration-none" onclick="revelaQr()" target="_blank">
+                        <img id="whatsIcon" class="iconPerfil" src="img/whats.png">
+                    </a>
+
+                    <div id="qr">
+                        <img class="iconPerfil" id="qrImg" src="img/qrWhats.png">
+                    </div>
+
+
+
+                </div>
+
+                <div id="descricao">
+
+                    <div id="dados" style="font-weight: bold; font-size: 1.2em;">
+                        <p>Hi, I'm Pedro and I'm starting to learn some web programming now.
+                         Currently I study at the Federal Technological University of Paraná, famous UTF.</p>
+                        <p>At home you will find some of my projects that I started. They are simple,
+                            but it took work.</p>
+                        
+    
+                    </div>
+    
+                </div>
+
+            </div>
+        </div>
+
+        <div id="rodape">
+            <p>Copyright &copy 2020 - All rights reserved.</p>
+            <span>Made by Pedro Henrique - </span>
+
+            <img class="icon" onclick="insta()" src="img/insta.png">
+            <img class="icon" onclick="facebook()" src="img/facebook.png">
+        </div>
+
+        <script src="js/script.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>
