@@ -6,7 +6,7 @@ window.onresize = function(){
     }
     
     else{
-        document.getElementById('iframeCookie').src = 'https://pedrorreiro.github.io/cookieClicker/';
+        document.getElementById('iframeCookie').src = "https://pedrorreiro.github.io/cookieClicker/";
     }
 
     //document.getElementById('cookie').style.width = alturaCel/4 + 'px';
